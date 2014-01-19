@@ -21,3 +21,8 @@ field_count.times do
   field_type << gets.chomp
 end
 
+form = <<-FUCK
+fwefewf #{f}
+FUCK
+
+puts form
